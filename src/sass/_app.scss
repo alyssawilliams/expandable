@@ -1,0 +1,28 @@
+// Header
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  padding: 46px 0 20px;
+  cursor: default;
+  @include gradient;
+}
+
+.header__button {
+  position: absolute;
+  padding: 0;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  color: $white;
+  cursor: pointer;
+}
+
+.header__text {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
