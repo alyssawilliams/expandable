@@ -1,11 +1,11 @@
 import React from 'react';
+import Header from './Header.js';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <Header />
       <p>Expandable</p>
     </div>
   );
 }
-
-export default App;
