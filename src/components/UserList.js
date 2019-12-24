@@ -8,6 +8,7 @@ export default function UserList(props) {
     return (
       <UserCard 
         key={login.uuid}
+        id={login.uuid}
         picture={picture.medium}
         name={`${name.first} ${name.last}`}
         location={`${location.state}, ${location.country}`}
