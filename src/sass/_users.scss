@@ -26,7 +26,7 @@
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.30);
 }
 
-.user__data {
+.user__text {
   // display: flex;
   // flex-direction: column;
   align-self: center;
@@ -51,14 +51,14 @@
 }
 
 // Accordion
-.accordion__button {
+.user__accordion__button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: 20px;
 }
 
-.accordion {
+.user__accordion {
   box-sizing: border-box;
   display: flex;
   @include gradient;
@@ -68,27 +68,27 @@
   margin: 0 auto;
 }
 
-.user__phone, .user__email {
+.user__contact {
   padding: 20px 0;
   font-weight: 300;
   flex: 0 0 50%;
 }
 
-.user__phone {
+.user__contact--phone {
   border-right: 1px solid rgba($black, 0.1);
 }
 
-.user__email {
+.user__contact--email {
   overflow: hidden;
   white-space: nowrap;
 }
 
-.label {
+.user__label {
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.data {
+.user__data {
   margin: 0 10px;
   font-size: 12px;
   text-overflow: ellipsis;

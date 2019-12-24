@@ -55,7 +55,7 @@ button {
   padding: 20px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3); }
 
-.user__data {
+.user__text {
   align-self: center; }
 
 .user__photo {
@@ -73,14 +73,14 @@ button {
   font-size: 12px;
   font-weight: 300; }
 
-.accordion__button {
+.user__accordion__button {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: 20px; }
 
-.accordion {
+.user__accordion {
   box-sizing: border-box;
   display: -webkit-box;
   display: flex;
@@ -90,24 +90,24 @@ button {
   width: calc(100% - 20px);
   margin: 0 auto; }
 
-.user__phone, .user__email {
+.user__contact {
   padding: 20px 0;
   font-weight: 300;
   -webkit-box-flex: 0;
           flex: 0 0 50%; }
 
-.user__phone {
+.user__contact--phone {
   border-right: 1px solid rgba(0, 0, 0, 0.1); }
 
-.user__email {
+.user__contact--email {
   overflow: hidden;
   white-space: nowrap; }
 
-.label {
+.user__label {
   font-size: 14px;
   margin-bottom: 10px; }
 
-.data {
+.user__data {
   margin: 0 10px;
   font-size: 12px;
   text-overflow: ellipsis;
