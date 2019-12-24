@@ -1,5 +1,6 @@
 body {
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 body {
   background-color: #f9fafb;
@@ -42,17 +43,17 @@ button {
 
 .user__card {
   background-color: #ffffff;
-  background: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  padding: 20px; }
-  .user__card:not(last-of-type) {
-    margin-bottom: 10px; }
+  background: #FFFFFF; }
+  .user__card:not(:first-of-type) {
+    margin-top: 10px; }
 
 .user__top {
   position: relative;
   display: -webkit-box;
   display: flex;
-  align-content: center; }
+  align-content: center;
+  padding: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3); }
 
 .user__data {
   align-self: center; }
@@ -69,16 +70,48 @@ button {
   margin-bottom: 5px; }
 
 .user__location {
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: 300; }
 
 .accordion__button {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 0; }
+  right: 20px; }
 
 .accordion {
-  display: none; }
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: flex;
+  background-image: linear-gradient(45deg, #f77062 0%, #fe5196 100%);
+  color: #ffffff;
+  text-align: center;
+  width: calc(100% - 20px);
+  margin: 0 auto; }
+
+.user__phone, .user__email {
+  padding: 20px 0;
+  font-weight: 300;
+  -webkit-box-flex: 0;
+          flex: 0 0 50%; }
+
+.user__phone {
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+.user__email {
+  overflow: hidden;
+  white-space: nowrap; }
+
+.label {
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.data {
+  margin: 0 10px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
 
 /*# sourceMappingURL=index.css.map */
