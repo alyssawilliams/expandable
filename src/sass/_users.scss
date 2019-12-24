@@ -1,0 +1,57 @@
+// User List
+.users {
+  padding: 10px 0;
+}
+
+// User Card
+.user__card {
+  background-color: $white;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  padding: 20px;
+
+  &:not(last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
+.user__top {
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+.user__data {
+  // display: flex;
+  // flex-direction: column;
+  align-self: center;
+}
+
+.user__photo {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user__name {
+  color: $salmon;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.user__location {
+  font-size: 12px;
+}
+
+// Accordion
+.accordion__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.accordion {
+  display: none;
+}
