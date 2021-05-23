@@ -1,8 +1,8 @@
 # Expandable Content
-![Screenshot of expandable content application](/public/screenshot.png)
+[![Screenshot of expandable content application](/public/screenshot.png)](https://expandable.alyssaswilliams.dev/)
 
 ## Preview Link
-https://expandable.alyssaswilliams.dev/
+[https://expandable.alyssaswilliams.dev/](https://expandable.alyssaswilliams.dev/)
 
 ## How to Run Project Locally
 1. On the command line, type `npm install` to install node modules
